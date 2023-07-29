@@ -1,0 +1,20 @@
+// style.scss (assuming it's for Trending component)
+
+.carouseSection {
+    position: relative;
+    margin-bottom: 70px;
+  
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+  
+    .carouselTitle {
+      font-size: 24px;
+      color: white;
+      font-weight: normal;
+    }
+  }
+  
