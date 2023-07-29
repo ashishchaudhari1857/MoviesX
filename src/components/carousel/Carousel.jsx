@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 //  this library is used change the date format
 import dayjs from "dayjs";
 import ContentWrapper from '../content-wrapper/ContentWrapper'
-import Img from "../lazyLoadImage/Img";
+import Img from '../lazyLoadimage/img'
 import PosterFallback from "../../assets/no-poster.png";
 import "./style.scss";
  import CircleRating from "../circleRating/CircleRating";
