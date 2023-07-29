@@ -5,13 +5,13 @@ import { getApiConfiguration } from "./store/homeslice";
 import { getGeners } from "./store/homeslice";
 import { BrowserRouter,Route ,Routes } from "react-router-dom";
 
-import Header from './components/header/header'
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import PageNotFound from "./pages/404/PageNotFound";
+import Header from './components/header/Header'
 function App() {
   const dispatch= useDispatch()
  
