@@ -7,6 +7,7 @@ const headers={
 }
 
 
+//  here the url  means   endpoints  
 export const fetchDataFromAPi= async (url ,params)=>{
    console.log(BASE_URL+url ,{headers})
 
